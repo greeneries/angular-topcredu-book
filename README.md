@@ -18,14 +18,14 @@
   Watching...
 ```
 
-####### 2. json-server 실행하기
+### 2. json-server 실행하기
 ```
 # cd topcredu-books
 # C:\topcredu-books>ng serve --open
 ```
 
 
-####### axios 패키지 not found 에러 발생 시 아래 명령어로 axios 패키지 설치  
+### 3. axios 패키지 not found 에러 발생 시 아래 명령어로 axios 패키지 설치  
 ```
 # npm install axios
 ```
