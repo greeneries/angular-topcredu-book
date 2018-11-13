@@ -1,27 +1,35 @@
 # TopcreduBooks
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+####### 1. json-server 실행하기
+```
+# cd topcredu-books
+# C:\topcredu-books>json-server --watch db.json
+  \{^_^}/ hi!
 
-## Code scaffolding
+  Loading db.json
+  Done
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  Resources
+  http://localhost:3000/books
+  http://localhost:3000/profiles
 
-## Build
+  Home
+  http://localhost:3000
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+```
 
-## Running unit tests
+####### 2. json-server 실행하기
+```
+# cd topcredu-books
+# C:\topcredu-books>ng serve --open
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+####### axios 패키지 not found 에러 발생 시 아래 명령어로 axios 패키지 설치  
+```
+# npm install axios
+```
