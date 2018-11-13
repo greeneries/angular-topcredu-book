@@ -2,7 +2,7 @@
 
 
 
-######## 1. json-server 실행하기
+### 1. json-server 실행하기
 ```
 # cd topcredu-books
 # C:\topcredu-books>json-server --watch db.json
